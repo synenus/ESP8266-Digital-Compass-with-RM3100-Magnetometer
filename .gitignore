@@ -1,0 +1,23 @@
+Arduino IDE temporary files
+
+*.tmp
+*.o
+*.d
+*.a
+*.elf
+*.bin
+*.hex
+*.eep
+Build folder
+
+build/
+Local configuration files
+
+*.local
+.build/
+IDE-specific files
+
+.vscode/
+.cproject
+.project
+.settings/
