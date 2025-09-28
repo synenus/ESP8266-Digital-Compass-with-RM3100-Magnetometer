@@ -106,6 +106,4 @@ Compass Heading: 359.95 degrees
 <img width="1563" height="972" alt="image" src="https://github.com/user-attachments/assets/d410348c-2566-4bab-bbfd-025e4d145cc8" />
 
 
-License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
