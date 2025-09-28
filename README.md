@@ -29,21 +29,20 @@ Wiring Diagram
 
 Connect the RM3100 sensor to the ESP8266 board as follows. The SPI pins are standard for the ESP8266.
 
-RM3100 Pin                           ESP8266 Pin                          NodeMCU Label
+RM3100 Pin           -                ESP8266 Pin              -            NodeMCU Label
  
-VCC                                     3.3V                                 3V3
+VCC                -                     3.3V                -                 3V3
 
-GND                                     GND                                  GND
+GND                  -                   GND                 -                 GND
 
-CS                                     GPIO15                                D8
+CS                  -                   GPIO15              -                  D8
+DRDY                -                   GPIO5                -                 D1
 
-DRDY                                   GPIO5                                 D1
+SCLK                   -                GPIO14                -                D5
 
-SCLK                                   GPIO14                                D5
+MOSI                    -               GPIO13                 -               D7
 
-MOSI                                   GPIO13                                D7
-
-MISO                                   GPIO12                                D6
+MISO                   -                GPIO12                 -               D6
 Software Setup
 
     Install Arduino IDE: Download and install the latest version from the official Arduino website.
